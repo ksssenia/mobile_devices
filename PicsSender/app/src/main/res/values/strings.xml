@@ -1,0 +1,7 @@
+<resources>
+    <string name="send_photo">send picture!</string>
+    <string name="photo">photo</string>
+    <string name="imagePreview">previewImage</string>
+    <string name="app_name">Take a shot!</string>
+    <string name="take_a_photo">Take a shot!</string>
+</resources>

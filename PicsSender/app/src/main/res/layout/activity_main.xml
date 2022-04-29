@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDE2D4"
+    android:backgroundTint="#FDE2D4"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="361dp"
+        android:layout_height="443dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/send_photo_button"
+        android:layout_width="287dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="68dp"
+        android:text="@string/send_photo"
+        android:textSize="16sp"
+        app:backgroundTint="#ffc266"
+        app:icon="@drawable/ic_send"
+        app:iconSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/take_img_button"
+        android:layout_width="289dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#5C97F7"
+        android:text="@string/take_a_photo"
+        android:textSize="16sp"
+        app:icon="@drawable/ic_photo_camera"
+        app:iconSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/send_photo_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

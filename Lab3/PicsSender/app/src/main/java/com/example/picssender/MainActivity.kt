@@ -7,7 +7,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
 import androidx.lifecycle.lifecycleScope
-import com.example.takephotoapp.databinding.ActivityMainBinding
+import com.example.picssender.databinding.ActivityMainBinding
 import java.io.File
 
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/first_item"
+        android:enabled="true"
+        android:icon="@drawable/dog"
+        android:title="@string/dogs" />
+    <item
+        android:id="@+id/second_item"
+        android:enabled="true"
+        android:icon="@drawable/cat"
+        android:title="@string/cats" />
+    <item
+        android:id="@+id/third_item"
+        android:enabled="true"
+        android:icon="@drawable/bird"
+        android:title="@string/birds" />
+</menu>
